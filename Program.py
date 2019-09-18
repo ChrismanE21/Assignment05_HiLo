@@ -7,7 +7,7 @@ def Eazywin (Answer):
 	
 def Eazy ():
 	Answer = random.randint(0, 100)
-	print("The mode selected is Eazy mode. A random number has been selected.\n")
+	print("The mode selected is Eazy mode. Only enter numbers.\n")
 	
 	guess = int(input("Guess 1\n",))
 	if(guess > Answer):
@@ -197,6 +197,7 @@ def Normalwin (Answer):
 
 def Normal():
 	Answer = random.randint(0, 100)
+	print("You have selected Normal mode. Only enter numbers.\n")
 	
 	guess = int(input("\nguess 1\n",))
 	if(guess > Answer):
@@ -287,12 +288,16 @@ def Normal():
 	if(guess == Answer):
 		print(Normalwin (Answer))
 		Selection()
+	
+	print("\nGame over! Out of Guesses!\nThe answer was",Answer,".\n\n/////////////////////////////////////////////////////////////////////////////////////////////")
+	Selection()
 	
 def Hardwin(Answer):
 	print("Correct, the answer was",Answer,"!\n\n2\n\n/////////////////////////////////////////////////////////////////////////////////////////////")#The two is part of the impossible answer"):
 		
 def Hard ():
 	Answer = random.randint(0, 1000)
+	print("You have selected Hard mode. Only use numbers to guess.\n")
 	
 	guess = int(input("Guess 1\n",))
 	if(guess > Answer):
@@ -303,184 +308,188 @@ def Hard ():
 		print(Hardwin(Answer))
 		Selection()
 		
-	guess = int(input("guess 2\n",))
+	guess = int(input("Guess 2\n",))
 	if(guess > Answer):
-		print("answer to big")
+		print("Answer is too big\n")
 	if(guess < Answer):
-		print("answer to small")
+		print("Answer is too small\n")
 	if(guess == Answer):
 		print(Hardwin(Answer))
 		Selection()
 		
-	guess = int(input("guess 3\n",))
+	guess = int(input("Guess 3\n",))
 	if(guess > Answer):
-		print("answer to big")
+		print("Answer is too big\n")
 	if(guess < Answer):
-		print("answer to small")
+		print("Answer is too small\n")
 	if(guess == Answer):
 		print(Hardwin(Answer))
 		Selection()
 		
-	guess = int(input("guess 4\n",))
+	guess = int(input("Guess 4\n",))
 	if(guess > Answer):
-		print("answer to big")
+		print("Answer is too big\n")
 	if(guess < Answer):
-		print("answer to small")
+		print("Answer is too small\n")
 	if(guess == Answer):
 		print(Hardwin(Answer))
 		Selection()
 		
-	guess = int(input("guess 5\n",))
+	guess = int(input("Guess 5\n",))
 	if(guess > Answer):
-		print("answer to big")
+		print("Answer is too big\n")
 	if(guess < Answer):
-		print("answer to small")
+		print("Answer is too small\n")
 	if(guess == Answer):
 		print(Hardwin(Answer))
 		Selection()
 		
-	guess = int(input("guess 6\n",))
+	guess = int(input("Guess 6\n",))
 	if(guess > Answer):
-		print("answer to big")
+		print("Answer is too big\n")
 	if(guess < Answer):
-		print("answer to small")
+		print("Answer is too small\n")
 	if(guess == Answer):
 		print(Hardwin(Answer))
 		Selection()
 		
-	guess = int(input("guess 7\n",))
+	guess = int(input("Guess 7\n",))
 	if(guess > Answer):
-		print("answer to big")
+		print("Answer is too big\n")
 	if(guess < Answer):
-		print("answer to small")
+		print("Answer is too small\n")
 	if(guess == Answer):
 		print(Hardwin(Answer))
 		Selection()
 		
-	guess = int(input("guess 8\n",))
+	guess = int(input("Guess 8\n",))
 	if(guess > Answer):
-		print("answer to big")
+		print("Answer is too big\n")
 	if(guess < Answer):
-		print("answer to small")
+		print("Answer is too small\n")
 	if(guess == Answer):
 		print(Hardwin(Answer))
 		Selection()
 		
-	guess = int(input("guess 9\n",))
+	guess = int(input("Guess 9\n",))
 	if(guess > Answer):
-		print("answer to big")
+		print("Answer is too big\n")
 	if(guess < Answer):
-		print("answer to small")
+		print("Answer is too small\n")
 	if(guess == Answer):
 		print(Hardwin(Answer))
 		Selection()
 		
-	guess = int(input("guess 10\n",))
+	guess = int(input("Guess 10\n",))
 	if(guess > Answer):
-		print("answer to big")
+		print("Answer is too big\n")
 	if(guess < Answer):
-		print("answer to small")
+		print("Answer is too small\n")
 	if(guess == Answer):
 		print(Hardwin(Answer))
 		Selection()
 		
-	guess = int(input("guess 11\n",))
+	guess = int(input("Guess 11\n",))
 	if(guess > Answer):
-		print("answer to big")
+		print("Answer is too big\n")
 	if(guess < Answer):
-		print("answer to small")
+		print("Answer is too small\n")
 	if(guess == Answer):
 		print(Hardwin(Answer))
 		Selection()
 		
-	guess = int(input("guess 12\n",))
+	guess = int(input("Guess 12\n",))
 	if(guess > Answer):
-		print("answer to big")
+		print("Answer is too big\n")
 	if(guess < Answer):
-		print("answer to small")
+		print("Answer is too small\n")
 	if(guess == Answer):
 		print(Hardwin(Answer))
 		Selection()
 		
-	guess = int(input("guess 13\n",))
+	guess = int(input("Guess 13\n",))
 	if(guess > Answer):
-		print("answer to big")
+		print("Answer is too big\n")
 	if(guess < Answer):
-		print("answer to small")
+		print("Answer is too small\n")
 	if(guess == Answer):
 		print(Hardwin(Answer))
 		Selection()
 		
-	guess = int(input("guess 14\n",))
+	guess = int(input("Guess 14\n",))
 	if(guess > Answer):
-		print("answer to big")
+		print("Answer is too big\n")
 	if(guess < Answer):
-		print("answer to small")
+		print("Answer is too small\n")
 	if(guess == Answer):
 		print(Hardwin(Answer))
 		Selection()
 		
-	guess = int(input("guess 15\n",))
+	guess = int(input("Guess 15\n",))
 	if(guess > Answer):
-		print("answer to big")
+		print("Answer is too big\n")
 	if(guess < Answer):
-		print("answer to small")
+		print("Answer is too small\n")
 	if(guess == Answer):
 		print(Hardwin(Answer))
 		Selection()
 		
-	guess = int(input("guess 16\n",))
+	guess = int(input("Guess 16\n",))
 	if(guess > Answer):
-		print("answer to big")
+		print("Answer is too big\n")
 	if(guess < Answer):
-		print("answer to small")
+		print("Answer is too small\n")
 	if(guess == Answer):
 		print(Hardwin(Answer))
 		Selection()
 		
-	guess = int(input("guess 17\n",))
+	guess = int(input("Guess 17\n",))
 	if(guess > Answer):
-		print("answer to big")
+		print("Answer is too big\n")
 	if(guess < Answer):
-		print("answer to small")
+		print("Answer is too small\n")
 	if(guess == Answer):
 		print(Hardwin(Answer))
 		Selection()
 		
-	guess = int(input("guess 18\n",))
+	guess = int(input("Guess 18\n",))
 	if(guess > Answer):
-		print("answer to big")
+		print("Answer is too big\n")
 	if(guess < Answer):
-		print("answer to small")
+		print("Answer is too small\n")
 	if(guess == Answer):
 		print(Hardwin(Answer))
 		Selection()
 
-	guess = int(input("guess 19\n",))
+	guess = int(input("Guess 19\n",))
 	if(guess > Answer):
-		print("answer to big")
+		print("Answer is too big\n")
 	if(guess < Answer):
-		print("answer to small")
+		print("Answer is too small\n")
 	if(guess == Answer):
 		print(Hardwin(Answer))
 		Selection()
 		
-	guess = int(input("guess 20\n",))
+	guess = int(input("Guess 20\n",))
 	if(guess > Answer):
-		print("answer to big")
+		print("Answer is too big\n")
 	if(guess < Answer):
-		print("answer to small")
+		print("Answer is too small\n")
 	if(guess == Answer):
 		print(Hardwin(Answer))
 		Selection()
+	
+	print("\nGame over! Out of Guesses!\nThe answer was",Answer,".\n\n/////////////////////////////////////////////////////////////////////////////////////////////")
+	Selection()
 		
 def Impossible ():
+	print("You have selected DJ_Hobbs mode. Olny one guess and olny enter a number.")
 	Answer = 172		
 	guess = int(input("guess 1\n",))
 	if(guess > Answer):
-		print("answer to big")
+		print("Answer is incorrect, the answer remains hidden. There is a way to win.")
 	if(guess < Answer):
-		print("answer to small")
+		print("Answer is incorrect, the answer remains hidden. There is a way to win.")
 	if(guess == Answer):
 		print("You have found the ultra secert!\n\nhttps://bit.ly/1lbg0KM\n\n/////////////////////////////////////////////////////////////////////////////////////////////")#Website contains a secert
 		Selection ()
